@@ -1,0 +1,26 @@
+{
+  "name": "droopy-postmessage",
+  "version": "1.0.0",
+  "description": "Wraps HTML5 PostMessage API to support callbacks and promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/droopytersen/droopy-postmessage.git"
+  },
+  "keywords": [
+    "PostMessage",
+    "droopy"
+  ],
+  "author": "Andrew Petersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/droopytersen/droopy-postmessage/issues"
+  },
+  "homepage": "https://github.com/droopytersen/droopy-postmessage#readme",
+  "dependencies": {
+    "droopy-events": "0.0.0"
+  }
+}
