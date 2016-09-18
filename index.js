@@ -54,7 +54,7 @@ droopyPostMessage.unsubscribe = function(key, cb) {
 	droopyPostMessage._eventer.off(key, cb);
 };
 
-droopyPostMessage.post = function(targetWindow, key, payload, cb) {
+droopyPostMessage.post = function(targetWindow, key, payload) {
     if (!droopyPostMessage.enabled) droopyPostMessage._turnOn();
     droopyPostMessage._post(targetWindow, key, payload);
 };
