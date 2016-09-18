@@ -4,7 +4,7 @@
   "description": "Wraps HTML5 PostMessage API to support callbacks and promises",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/run.js"
+    "test": "live-server"
   },
   "repository": {
     "type": "git",

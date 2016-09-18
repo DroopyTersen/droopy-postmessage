@@ -21,9 +21,9 @@ npm install --save droopy-postmessage
 ```
 
 **Option 2**: Global Include
-1. Download <a href="https://raw.githubusercontent.com/DroopyTersen/droopy-postmessage/master/index.js">the source code</a> and include it on your page: 
+1. Download <a href="https://raw.githubusercontent.com/DroopyTersen/droopy-postmessage/master/dist/droopyPostMessage.js">the source code</a> and include it on your page: 
 
-Last, you need to include droopyPostMessage.js on both pages, the parent page, and the iframed page.
+**Setup** - Last, you need to include droopyPostMessage.js on both pages, the parent page, and the iframed page.
 
 ##Methods
 * **`droopyPostMessage.subscribe(key, handler)`** - allows a page to listen for a particular key
