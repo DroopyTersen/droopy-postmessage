@@ -4,7 +4,7 @@
   "description": "Wraps HTML5 PostMessage API to support callbacks and promises",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "node ./test/run.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,9 @@
   "homepage": "https://github.com/droopytersen/droopy-postmessage#readme",
   "dependencies": {
     "droopy-events": "0.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "webpack": "^1.13.2"
   }
 }

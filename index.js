@@ -65,7 +65,7 @@ droopyPostMessage.query = function(targetWindow, key, payload, cb) {
     var responseKey = Date.now();
     
     // Use Post Message api to listen for a message back from the target window
-    var responseHandler = function(payload) {
+    var responseHandler = function(e, payload) {
         // No point staying subscribed this this was a one and done thing
         droopyPostMessage.unsubscribe(responseKey, responseHandler);
 
@@ -107,4 +107,8 @@ var createRespondFunc = function(postMessageEvent) {
 	}
 };
 
-module.exports = droopyPostMessage;
+if (module) {
+	module.exports = droopyPostMessage;
+} 
+droopyPostMessage._turnOn();
+global.droopyPostMessage = droopyPostMessage;
